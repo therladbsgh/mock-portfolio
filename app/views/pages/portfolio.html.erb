@@ -1,0 +1,79 @@
+<div class="main-body">
+	<div class="banner">
+    	<ul>
+    		<li>
+  		      	<img src="https://dl.dropbox.com/s/op08qie8299oasj/Bolt%20Network.png" />
+  		    </li>
+        	<li>
+        		<img src="https://dl.dropbox.com/s/ljsp3mqr8k1yzh1/Innovation%20Cloud.png" />
+        	</li>
+        	<li>
+        		<img src="https://dl.dropbox.com/s/iuvxf91ditmcw5q/Broadway.png" />
+        	</li>
+    	</ul>
+	</div>
+
+	<div class="container-fluid" style="padding-top:50px">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="https://bolt-network-rails.herokuapp.com/">
+					<img class="grid-image" src="https://dl.dropbox.com/s/op08qie8299oasj/Bolt%20Network.png" />
+					<h2 style="text-align:center">Bolt Network</h2>
+					<p style="text-align:center">A movie streaming service.</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://innovation-cloud-rails.herokuapp.com/">
+					<img class="grid-image" src="https://dl.dropbox.com/s/ljsp3mqr8k1yzh1/Innovation%20Cloud.png" />
+					<h2 style="text-align:center">Innovation Cloud</h2>
+					<p style="text-align:center">A site for the Innovation Cloud Conference.</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://broadway-rails.herokuapp.com/">
+					<img class="grid-image" src="https://dl.dropbox.com/s/iuvxf91ditmcw5q/Broadway.png" />
+					<h2 style="text-align:center">Broadway</h2>
+					<p style="text-align:center">A site for Broadway, a design startup.</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://bookmarks-rails-2633.herokuapp.com/books">
+					<img class="grid-image" src="http://dl.dropbox.com/s/r1naqjk16w567os/Bookmarks.png" />
+					<h2 style="text-align:center">Bookmarks</h2>
+					<p style="text-align:center">A simple site showing bookmarks.</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://threadly-rails.herokuapp.com/">
+					<img class="grid-image" src="https://dl.dropbox.com/s/o4nv2u0jtxoi5zd/Threadly.png" />
+					<h2 style="text-align:center">Threadly</h2>
+					<p style="text-align:center">A site to freely post whatever you want.</p>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://bass-music-rails.herokuapp.com/albums">
+					<img class="grid-image" src="https://dl.dropbox.com/s/u7tfz64oqk36hhh/Bass%20Music.png" />
+					<h2 style="text-align:center">Bass Music</h2>
+					<p style="text-align:center">A music streaming service.</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//unslider.com/unslider.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('.banner').unslider({
+		speed: 500,               //  The speed to animate each slide (in milliseconds)
+		delay: 3000,              //  The delay between slide animations (in milliseconds)
+		complete: function() {},  //  A function that gets called after every slide animation
+		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+		dots: false,               //  Display dot navigation
+		fluid: true              //  Support responsive design. May break non-responsive designs
+	});
+});
+</script>

@@ -1,50 +1,10 @@
-<div class="navbar navbar-inverse">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#welcome">Welcome</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-      	<li><a href="#">Andrew Kim</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
-
 <div class="main-body">
   <div id="welcome" class="jumbotron">
     <div id="welcome-container" class="container">
       <h1>Hello. My name is <span style="color:black">Andrew Kim</span> and I just try to build websites.</h1>
       <br><br>
-      <p><a class="btn-awesome" href="#" role="button">View my Work</a></p>
+      <!--<p><a class="btn-awesome" href="#" role="button">View my Work</a></p>-->
+      <p><%= link_to "View my Work", portfolio_path, class: "btn-awesome", role: "button" %></p>
     </div>
   </div>
 </div><!-- /.container -->
-
-<footer class="footer">
-	<div class="container">
-		<ul class="social-media">
-			<li>
-				<a href="#"><span style="color:black"><i class="fa fa-github fa-2x"></i></span></a>
-			</li>
-			<li>
-				<a href="#"><span style="color:black"><i class="fa fa-bitbucket fa-2x"></i></span></a>
-			</li>
-			<li>
-				<a href="#"><span style="color:black"><i class="fa fa-twitter fa-2x"></i></span></a>
-			</li>
-		</ul>
-		<p>© 2015 Andrew Kim</p>
-	</div>
-</footer>

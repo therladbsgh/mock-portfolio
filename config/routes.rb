@@ -1,6 +1,7 @@
 Portfolio::Application.routes.draw do
 
-  root 'pages#welcome'
+  root 'pages#welcome', as: :welcome
+  get '/portfolio' => 'pages#portfolio', as: :portfolio
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
